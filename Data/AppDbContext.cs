@@ -10,5 +10,6 @@ namespace Online_Product_Order_API.Data
         }
 
         public DbSet<Order> orders { get; set; }
+        public DbSet<BankTransaction> bankTransactions { get; set; }  
     }
 }

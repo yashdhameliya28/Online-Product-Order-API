@@ -57,7 +57,7 @@ namespace Online_Product_Order_API.Controllers
                 });
             }
             var newOrder = new Order
-            {
+            {   
                 orderID = order.orderID,
                 customerName = order.customerName,
                 productName = order.productName,
